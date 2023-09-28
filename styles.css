@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0% 10%;
+}
+
+/* main,
+footer {
+    margin: 0px 250px;
+} */
+
+section {
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 2rem 0rem 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(72, 202, 159);
+    text-align: center;
+}
+
+h3,
+li,
+a,
+p,
+button {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 5rem;
+    border: 2px solid gray;
+    border-radius: 20px;
+    /* box-shadow: 0px 3px 5px gray */;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo a {
+    color: black;
+}
+
+.logo a:hover {
+    color: rgb(72, 202, 159);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 0px 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(72, 202, 159);
+}
+
+/* HOME */
+
+.home {
+    /* background-color: red; */
+    margin: 20rem 0rem 20rem 20rem;
+}
+
+.home-container {
+    /* background-color: blue; */
+    display: flex;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: green; */
+}
+
+.home-text p {
+    margin: 1rem 0rem;
+    width: 80%;
+}
+
+.home-links {
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 15px;
+    margin: 2rem 0rem;
+}
+
+.skills {
+    /* background-color: chartreuse; */
+    display: flex;
+    margin: 5rem 0rem;
+}
+
+.skills p {
+    margin: auto 8rem auto 0rem;
+}
+
+.skills div {
+    display: flex;
+}
+.skills-pic {
+    /* background-color: aqua; */
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-pic div {
+    /* background-color: darkorange; */
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px gray;
+    justify-content: center;
+}
+
+.skills img {
+    width: 4.5rem;
+    height: 4.5rem;
+    align-self: center;
+    align-items: cente;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+.profile-pic {
+    width: 50%;
+}
+
+/* ABOUT */
+
+.about div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.about-container {
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    display: flex;
+    align-items: center;
+}
+
+.about-pic {
+    margin: 50px;
+    border-radius: 20px;
+}
+
+/* PROJECTS */
+
+.projects-container {
+    /* background-color: blue; */
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.project-text {
+    /* background-color: red; */
+    flex-direction: column;
+}
+
+.project-text h3 {
+    align-self: flex-start;
+}
+
+.project-text div {
+    /* background-color: blueviolet; */
+    align-self: flex-start;
+    margin: 0px;
+    gap: 15px;
+}
+
+.projects-list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.projects-container img {
+    margin: 50px;
+    width: 250px;
+}
+
+.project-text img {
+    max-width: 45px;
+    margin: 0px;
+}
+
+h3 {
+    margin: 2rem 0rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.text-box {
+    margin: 5rem 0rem 0rem;
+}
+
+.text-box input,
+.email-box input,
+.message-box textarea,
+button {
+    min-height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    resize: none;
+    background-color: #ffffff;
+}
+
+.text-box input,
+.email-box input,
+.message-box textarea {
+    width: 100%;
+}
+
+.message-box textarea {
+    min-height: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 5rem;
+}
+
+button:hover {
+    background-color: rgb(72, 202, 159);
+}

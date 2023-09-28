@@ -5,17 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>gergogobel.dev</title>
+        <link rel="icon" href="./icons/tabicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            rel="shortcut icon"
-            href="./icons/tabicon.png"
-            type="image/x-icon"
+            href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
         />
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         <header>
-            <nav class="nav">
+            <nav>
                 <div class="logo">
                     <a href="#home">gergogobel.dev</a>
+                </div>
+                <div class="list-menu">
+                    <a href="#" target="_blank">
+                        <img src="./icons/list.svg" alt="menu"
+                    /></a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -28,160 +36,173 @@
         <main>
             <section class="home" id="home">
                 <div class="home-container">
-                    <h1>Front-End Developer</h1>
-                    <p>
-                        Hi, I'm Gergő Gőbel. A passionate Front-end Developer
-                        based in Budapest, Hungary.
-                    </p>
-                    <img
-                        src="./images/profile.png"
-                        alt="profile picture"
-                        height="250px"
-                    />
-                    <div>
-                        <a href="https://www.linkedin.com/" target="_blank">
-                            <img
-                                src="./icons/linkedin-logo.png"
-                                alt="linkedin logo"
-                                height="45px"
-                            />
-                        </a>
-                        <a href="https://github.com/" target="_blank"
-                            ><img
-                                src="./icons/github.png"
-                                alt="github logo"
-                                height="45px"
-                        /></a>
+                    <div class="home-text">
+                        <h1>Front-End Developer</h1>
+                        <p>
+                            Hi, I'm Gergő Gőbel. A passionate Front-end
+                            Developer based in Budapest, Hungary.
+                        </p>
+                        <div class="home-links">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <img
+                                    src="./icons/linkedin-logo.png"
+                                    alt="linkedin logo"
+                                />
+                            </a>
+                            <a href="https://github.com/" target="_blank"
+                                ><img
+                                    src="./icons/github.png"
+                                    alt="github logo"
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="profile-container">
+                        <img
+                            src="./images/profile.png"
+                            alt="profile picture"
+                            class="profile-pic"
+                        />
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-icons">
+                        <div><img src="./icons/html-5.png" alt="HTML5" /></div>
+                        <div><img src="./icons/css-3.png" alt="CSS3" /></div>
+                        <div>
+                            <img src="./icons/bootstrap.png" alt="Bootstrap" />
+                        </div>
+                        <div><img src="./icons/js.png" alt="Javascript" /></div>
+                        <div><img src="./icons/reactjs.png" alt="React" /></div>
                     </div>
                 </div>
             </section>
             <section class="about" id="about">
-                <h2>About me</h2>
+                <h2>About Me</h2>
                 <div class="about-container">
-                    <img src="./images/about.jpg" alt="about picture" />
-                    <p>
-                        As a Junior Front-End Developer, I possess an impressive
-                        arsenal of skills in HTML, CSS, JavaScript, React,
-                        Bootstrap, and SASS. I excel in designing and
-                        maintaining responsive websites that offer a smooth user
-                        experience. My expertise lies in crafting dynamic,
-                        engaging interfaces through writing clean and optimized
-                        code and utilizing cutting-edge development tools and
-                        techniques. I am also a team player who thrives in
-                        collaborating with cross-functional teams to produce
-                        outstanding web applications.
-                    </p>
+                    <img
+                        src="./images/about.jpg"
+                        alt="about picture"
+                        class="about-pic"
+                    />
+                    <div>
+                        <h3>
+                            A dedicated Front-end Developer based in Budapest,
+                            Hungary
+                        </h3>
+                        <p>
+                            As a Junior Front-End Developer, I possess an
+                            impressive arsenal of skills in HTML, CSS,
+                            JavaScript, React, Bootstrap.<!-- , and SASS.  -->
+                            I excel in designing and maintaining responsive
+                            websites that offer a smooth user experience. My
+                            expertise lies in crafting dynamic, engaging
+                            interfaces through writing clean and optimized code
+                            and utilizing cutting-edge development tools and
+                            techniques. I am also a team player who thrives in
+                            collaborating with cross-functional teams to produce
+                            outstanding web applications.
+                        </p>
+                    </div>
                 </div>
             </section>
             <section class="projects" id="projects">
+                <h2>Projects</h2>
                 <div class="projects-list">
-                    <h2>Projects</h2>
                     <div class="projects-container">
                         <img
-                            src="./images/projects.jpg"
+                            src="./images/projects-pic.jpg"
                             alt="project picture"
-                            height="250px"
                         />
-                        <h3>Projects 1</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Molestias veniam laudantium minus ratione
-                            eius? Animi!
-                        </p>
-                        <div>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/github.png"
-                                    alt="github logo"
-                                    height="45px"
-                            /></a>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/arrow.png"
-                                    alt="arrow"
-                                    height="45px"
-                            /></a>
+                        <div class="project-text">
+                            <h3>Projects 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias veniam laudantium
+                                minus ratione eius? Animi!
+                            </p>
+                            <div>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img
+                                        src="./icons/github.png"
+                                        alt="github logo"
+                                /></a>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img src="./icons/arrow.png" alt="arrow"
+                                /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-container-2">
+                        <img
+                            src="./images/projects-pic.jpg"
+                            alt="project picture"
+                        />
+                        <div class="project-text">
+                            <h3>Projects 2</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias veniam laudantium
+                                minus ratione eius? Animi!
+                            </p>
+                            <div>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img
+                                        src="./icons/github.png"
+                                        alt="github logo"
+                                /></a>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img src="./icons/arrow.png" alt="arrow"
+                                /></a>
+                            </div>
                         </div>
                     </div>
                     <div class="projects-container">
                         <img
-                            src="./images/projects.jpg"
+                            src="./images/projects-pic.jpg"
                             alt="project picture"
-                            height="250px"
                         />
-                        <h3>Projects 2</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Molestias veniam laudantium minus ratione
-                            eius? Animi!
-                        </p>
-                        <div>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/github.png"
-                                    alt="github logo"
-                                    height="45px"
-                            /></a>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/arrow.png"
-                                    alt="arrow"
-                                    height="45px"
-                            /></a>
+                        <div class="project-text">
+                            <h3>Projects 3</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias veniam laudantium
+                                minus ratione eius? Animi!
+                            </p>
+                            <div>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img
+                                        src="./icons/github.png"
+                                        alt="github logo"
+                                /></a>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img src="./icons/arrow.png" alt="arrow"
+                                /></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="projects-container">
+                    <div class="projects-container-2">
                         <img
-                            src="./images/projects.jpg"
+                            src="./images/projects-pic.jpg"
                             alt="project picture"
-                            height="250px"
                         />
-                        <h3>Projects 3</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Molestias veniam laudantium minus ratione
-                            eius? Animi!
-                        </p>
-                        <div>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/github.png"
-                                    alt="github logo"
-                                    height="45px"
-                            /></a>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/arrow.png"
-                                    alt="arrow"
-                                    height="45px"
-                            /></a>
-                        </div>
-                    </div>
-                    <div class="projects-container">
-                        <img
-                            src="./images/projects.jpg"
-                            alt="project picture"
-                            height="250px"
-                        />
-                        <h3>Projects 4</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Molestias veniam laudantium minus ratione
-                            eius? Animi!
-                        </p>
-                        <div>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/github.png"
-                                    alt="github logo"
-                                    height="45px"
-                            /></a>
-                            <a href="https://github.com/" target="_blank"
-                                ><img
-                                    src="./icons/arrow.png"
-                                    alt="arrow"
-                                    height="45px"
-                            /></a>
+                        <div class="project-text">
+                            <h3>Projects 4</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias veniam laudantium
+                                minus ratione eius? Animi!
+                            </p>
+                            <div>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img
+                                        src="./icons/github.png"
+                                        alt="github logo"
+                                /></a>
+                                <a href="https://github.com/" target="_blank"
+                                    ><img src="./icons/arrow.png" alt="arrow"
+                                /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -189,13 +210,33 @@
             <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <form action="https://formspree.io/f/myyaqjan" method="POST">
-                    <input type="text" name="name" placeholder="Name" />
-                    <input type="email" name="email" placeholder="Email" />
-                    <textarea name="message" placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
+                    <div class="text-box">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            required
+                        />
+                    </div>
+                    <div class="email-box">
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        />
+                    </div>
+                    <div class="message-box">
+                        <textarea
+                            name="message"
+                            placeholder="Message"
+                            required
+                        ></textarea>
+                    </div>
+                    <div class="btn"><button type="submit">Send</button></div>
                 </form>
             </section>
         </main>
-        <footer>Copyright &copy; 2023 gergogobel.dev</footer>
+        <footer>&copy; Copyright 2023 Gőbel Gergő</footer>
     </body>
 </html>
